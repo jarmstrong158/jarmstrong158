@@ -6,7 +6,7 @@ Warehouse Manager by day. Building nights and weekends. Looking for a full-time 
 
 ## Latest
 
-**[Skein](https://github.com/jarmstrong158/skein)** — local-first observability for multi-agent A2A systems. Webhook ingestion, SQLite-backed timeline with cascade detection, and a 6-tool MCP server so Claude Desktop/Code can answer "what failed in the last hour" against captured traces. v0.1.0 shipped April 2026 — [release notes](https://github.com/jarmstrong158/skein/releases/tag/v0.1.0).
+**[Clark](https://github.com/jarmstrong158/Clark)** — foundation reinforcement learning model for warehouse workforce scheduling. Transformer + LSTM hybrid (~18M params) that handles variable numbers of workers and tasks, so one pre-trained model fine-tunes to any facility in 200–500 episodes instead of training from scratch. Per-worker PPO ratio (IPPO-style factored action space), PopArt value normalization, multi-process env runner with pipelined CPU/GPU overlap. Successor to [Jack](https://github.com/jarmstrong158/Jack); foundation pre-training in progress.
 
 ## What I Build
 
@@ -21,10 +21,10 @@ Warehouse Manager by day. Building nights and weekends. Looking for a full-time 
 - [rag-pipeline](https://github.com/jarmstrong158/rag-pipeline) — fully local RAG with llama-cpp-python + Llama 3.2 + nomic-embed-text. FastAPI front door, no cloud.
 
 **Reinforcement Learning & ML**
-- [clark-ai](https://github.com/jarmstrong158/clark-ai) — Warehouse workforce optimization. Transformer-based PPO agent built from scratch (multi-head self/cross-attention, actor-critic), curriculum learning, FastAPI multi-facility API, batched parallel training pipeline.
-- [Balatron](https://github.com/jarmstrong158/Balatron) — PPO RL agent playing Balatro autonomously. 814-dimensional state vector, 17+ confirmed wins.
-- [Jack](https://github.com/jarmstrong158/Jack) — PPO + LSTM warehouse RL agent with temporal memory. 98.2% order completion across ~9.4 simulated years.
-- [Dolly](https://github.com/jarmstrong158/Dolly) — Foundation RL simulation for warehouse workforce optimization. Jack's predecessor.
+- [Clark](https://github.com/jarmstrong158/Clark) — Foundation RL model for warehouse workforce scheduling. Variable-shape transformer + LSTM hybrid (~18M params), 3-stage curriculum across thousands of synthetic facility configs, per-worker PPO ratio + PopArt value head, multi-process env runner with pipelined CPU/GPU overlap, FastAPI multi-facility API. Generalizes Jack's single-facility approach so one foundation model fine-tunes per facility in ~30 minutes.
+- [Jack](https://github.com/jarmstrong158/Jack) — PPO + LSTM warehouse RL agent with temporal memory. 98.2% order completion, 58% A-grade days across ~9.4 simulated years on a single facility. Validated single-facility predecessor to Clark.
+- [Balatron](https://github.com/jarmstrong158/Balatron) — PPO RL agent playing Balatro autonomously. 814-dimensional state vector, hybrid neural+heuristic decision layer, 17+ confirmed wins.
+- [Dolly](https://github.com/jarmstrong158/Dolly) — Earlier warehouse RL simulation; Jack's predecessor.
 
 **Automation & Full-Stack**
 - [Ship.exec Metrics Tracker](https://github.com/jarmstrong158/Ship.exec-metrics-tracker) — Python/Selenium automation saving ~\$7,000/yr in manual reporting at a 200+ order/day warehouse.
@@ -32,7 +32,7 @@ Warehouse Manager by day. Building nights and weekends. Looking for a full-time 
 
 ## Tech
 
-Python • PyTorch • Transformer (built from scratch) • PPO / LSTM • Curriculum Learning • MCP Protocol • A2A Protocol • Claude API • FastAPI • Flask + HTMX • SQLite • Redis • React • Supabase • Selenium
+Python • PyTorch • Transformer (built from scratch) • PPO / LSTM • IPPO factored action spaces • PopArt value normalization • Curriculum Learning • MCP Protocol • A2A Protocol • Claude API • FastAPI • Flask + HTMX • SQLite • Redis • React • Supabase • Selenium • Multi-process Python (spawn / Pipe IPC)
 
 ## Links
 
