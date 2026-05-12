@@ -27,7 +27,7 @@ Warehouse Manager by day. Building nights and weekends. Looking for a full-time 
 - [Dolly](https://github.com/jarmstrong158/Dolly) — Earlier warehouse RL simulation; Jack's predecessor.
 
 **Automation & Full-Stack**
-- [Ship.exec Metrics Tracker](https://github.com/jarmstrong158/Ship.exec-metrics-tracker) — Python/Selenium automation saving ~\$7,000/yr in manual reporting at a 200+ order/day warehouse.
+- [Ship.exec Metrics Tracker](https://github.com/jarmstrong158/Ship.exec-metrics-tracker) — Python/Selenium automation saving ~\$17,000/yr in manual reporting at a 200+ order/day warehouse.
 - [AI Profile Builder](https://github.com/jarmstrong158/ai-profile-builder) — Team AI profiling platform. 14 behavioral spectrums, 9 archetypes, team health dashboard. React 19, Supabase, deployed on [Vercel](https://ai-profile-builder-wheat.vercel.app).
 
 ## Tech
