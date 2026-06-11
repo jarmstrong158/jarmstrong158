@@ -18,6 +18,7 @@ Warehouse Manager by day. Building nights and weekends. Looking for a full-time 
 
 **MCP Servers & Agentic Tooling**
 - [Skein](https://github.com/jarmstrong158/skein) — A2A observability + MCP server. Flask + HTMX dashboard, deterministic failure cascade detection via `referenceTaskIds` + `contextId`, W3C `traceparent` capture, passive spec validator. 71/71 tests, `ruff` + `mypy` clean in CI.
+- [Waveform MCP](https://github.com/jarmstrong158/waveform-MCP) — Gives Claude full control of Tracktion Waveform: compose, mix, master, render. 150+ tools, 6 genre composers, music theory + mix-balance heuristics baked in. The largest agent tool-surface I've built.
 - [Conductor](https://github.com/jarmstrong158/Conductor) + [Conductor-mcp](https://github.com/jarmstrong158/Conductor-mcp) — Local automation dashboard with a web UI. Redis workers, scheduled tasks, Claude control via 22 MCP tools. Shipped Windows product with bundled Redis and auto-update.
 - [Context Keeper](https://github.com/jarmstrong158/context-keeper) — MCP server that persists project decisions, pipelines, and constraints across Claude conversations. Relevance scoring without embeddings. Zero external dependencies.
 - [SkillMatch MCP](https://github.com/jarmstrong158/skillmatch-mcp) — Job fit analyzer: parses JDs, compares against your GitHub portfolio and resume, tracks applications in SQLite.
@@ -28,6 +29,7 @@ Warehouse Manager by day. Building nights and weekends. Looking for a full-time 
 
 **Automation & Full-Stack**
 - [Ship.exec Metrics Tracker](https://github.com/jarmstrong158/Ship.exec-metrics-tracker) — Python/Selenium automation saving ~\$17,000/yr in manual reporting at a 200+ order/day warehouse.
+- [Barcode Label Maker](https://github.com/jarmstrong158/barcode-label-maker) — Print-ready Avery barcode labels (PDF) from an Excel pick-list, in production use in a warehouse. Auto-shrinking SKUs, width-fit Code 39 barcodes, looked-up descriptions. Ships a synthetic catalog so the proprietary data stays private.
 - [AI Profile Builder](https://github.com/jarmstrong158/ai-profile-builder) — Team AI profiling platform. 14 behavioral spectrums, 9 archetypes, team health dashboard. React 19, Supabase, deployed on [Vercel](https://ai-profile-builder-wheat.vercel.app).
 
 ## Tech
