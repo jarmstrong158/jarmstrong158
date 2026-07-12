@@ -1,5 +1,7 @@
 # Hey, I'm Jonathan Armstrong
 
+### 🌐 Portfolio &amp; live work → **[jarmstrong158.github.io](https://jarmstrong158.github.io)**
+
 AI/ML engineer. Multi-agent infrastructure, reinforcement learning agents, and MCP servers: production systems built from scratch, from transformer-based PPO agents to serverless agent coordination.
 
 Warehouse manager by day, building nights and weekends. Looking for a full-time role in applied AI, forward-deployed engineering, or ML engineering.
