@@ -40,7 +40,7 @@ The stack runs its own development: it audited my RL agent's recorded decisions 
 
 **Automation & Full-Stack**
 
-- [Ship.exec Metrics Tracker](https://github.com/jarmstrong158/Ship.exec-metrics-tracker) — Python/Selenium proof of concept that automates manual metrics reporting for a 200+ order/day warehouse workflow.
+- [Ship.exec Metrics Tracker](https://github.com/jarmstrong158/Ship.exec-metrics-tracker) — Python/Selenium automation for daily ShipExec reporting. Measured time savings project to roughly \$17K/yr per location in reporting labor at a 200+ order/day warehouse. Proof of concept, not a sanctioned deployment.
 - [Barcode Label Maker](https://github.com/jarmstrong158/barcode-label-maker) — Print-ready Avery barcode labels (PDF) from an Excel pick-list. Auto-shrinking SKUs, width-fit Code 39 barcodes, looked-up descriptions. Ships a synthetic catalog so proprietary data stays private.
 - [AI Profile Builder](https://github.com/jarmstrong158/ai-profile-builder) — Team AI profiling platform. 14 behavioral spectrums, 9 archetypes, team health dashboard. React 19, Supabase, deployed on [Vercel](https://ai-profile-builder-wheat.vercel.app).
 
